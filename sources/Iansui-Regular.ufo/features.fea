@@ -14233,3 +14233,22 @@ feature vpal {
         lookup SinglePositioning4;
 } vpal;
 
+table BASE {
+  HorizAxis.BaseTagList             icfb    icft    ideo    romn;
+  HorizAxis.BaseScriptList  
+                DFLT 	ideo  	    -96    800    -148    0,
+                hani  	ideo   	    -96    800    -148    0,
+                kana  	ideo   	    -96    800    -148    0,
+                latn  	romn    	-96    800    -148    0,
+                cyrl  	romn    	-96    800    -148    0,
+                grek  	romn   	    -96    800    -148    0;
+
+  VertAxis.BaseTagList              icfb    icft    ideo    romn;
+  VertAxis.BaseScriptList 
+                DFLT  	ideo    	 28    974    0    148,
+                hani  	ideo    	 28    974    0    148,
+                kana  	ideo    	 28    974    0    148,
+                latn  	romn   	     28    974    0    148,
+                cyrl  	romn    	 28    974    0    148,
+                grek  	romn    	 28    974    0    148;
+} BASE;
